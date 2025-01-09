@@ -4,7 +4,7 @@ import 'package:quiz_app/quiz.dart';
 import 'package:quiz_app/result.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatefulWidget {
@@ -85,7 +85,7 @@ class _MyAppState extends State<MyApp> {
               backgroundColor: Theme.of(context).colorScheme.onPrimaryContainer,
             ),
             body: Stack(children: [
-              gradient(),
+              const MGradient(),
               _questionsindex < _questions.length
                   ? Quiz(
                       question: _questions,

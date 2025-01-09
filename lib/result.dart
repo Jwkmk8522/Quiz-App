@@ -29,7 +29,7 @@ class Result extends StatelessWidget {
             style: Theme.of(context).textTheme.displaySmall,
             textAlign: TextAlign.center,
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
           Text(
@@ -40,12 +40,12 @@ class Result extends StatelessWidget {
                 .copyWith(color: Colors.black),
             textAlign: TextAlign.center,
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
           OutlinedButton(
             onPressed: resethandler,
-            child: Text(
+            child: const Text(
               'Try Again',
             ),
           )
